@@ -1,6 +1,6 @@
 const products = [
   {
-    _id: '1',
+
     name: 'Queen Panel Bed',
     image: '/images/product-1.jpeg',
     description:
@@ -13,7 +13,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
+
     name: 'King Panel Bed',
     image: '/images/product-2.jpeg',
     description:
@@ -26,7 +26,7 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
+
     name: 'Single Panel Bed',
     image:  '/images/product-3.jpeg',
     description:
@@ -39,7 +39,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
+
     name: 'Twin Panel Bed',
     image:  '/images/product-4.jpeg',
     description:
@@ -52,7 +52,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '5',
+
     name: 'Fridge',
     image: '/images/product-5.jpeg',
     description:
@@ -65,7 +65,7 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '6',
+
     name: 'Dresser',
     image:  '/images/product-6.jpeg',
     description:
@@ -78,7 +78,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '7',
+
     name: 'Couch',
     image:  '/images/product-7.jpeg',
     description:
@@ -91,7 +91,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '8',
+
     name: 'Table',
     image:  '/images/product-8.jpeg',
     description:

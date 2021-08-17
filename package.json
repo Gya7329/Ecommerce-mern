@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "ecommerce",
   "main": "server.js",
-  "type" : "module",
+  "type": "module",
   "scripts": {
     "start": "node backend/server",
-    "server":"nodemon backend/server",
+    "server": "nodemon backend/server",
     "client": "npm start --prefix frontend ",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "import:data": "node backend/seeder",
+    "import:destroy": "node backend/seeder -d",
+    "db": "node backend/config/db"
   },
   "repository": {
     "type": "git",
@@ -21,10 +24,12 @@
   },
   "homepage": "https://github.com/Gya7329/Ecommerce-mern#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "concurrently": "^6.2.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
     "mongoose": "^5.13.7",
     "nodemon": "^2.0.12"
   }
