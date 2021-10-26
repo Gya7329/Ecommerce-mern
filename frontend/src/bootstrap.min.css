@@ -13,7 +13,7 @@
 
 /* Primary Color : #1b8bd1 */
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap);
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=Lobster&family=Nunito:ital,wght@0,400;0,600;1,400;1,600&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=Lobster&family=Nunito:ital,wght@0,400;0,600;1,400;1,600&family=Satisfy&family=Zen+Old+Mincho:wght@400;700&display=swap");
 
 :root {
   --bs-blue: #325d88;
@@ -4553,6 +4553,9 @@ fieldset:disabled .btn {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1rem 1rem;
+  /* background: linear-gradient(to bottom, #ffafbd, #ffc3a0); */
+  background: linear-gradient(to bottom, #a1ffce, #faffd1);
+  /* background: linear-gradient(to bottom, #e0eafc, #cfdef3); */
 }
 .card-body:hover {
   color: #000;
@@ -4560,6 +4563,9 @@ fieldset:disabled .btn {
 
 .card-title {
   margin-bottom: 0.5rem;
+  font-size: 1.45rem;
+  /* font-family: "Zen Old Mincho", serif; */
+  font-family: "Satisfy", cursive;
 }
 .card-subtitle {
   margin-top: -0.25rem;

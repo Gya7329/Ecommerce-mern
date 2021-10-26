@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=Lobster&family=Nunito:ital,wght@0,400;0,600;1,400;1,600&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=Lobster&family=Nunito:ital,wght@0,400;0,600;1,400;1,600&family=Satisfy&family=Zen+Old+Mincho:wght@400;700&display=swap");
 
 /* font-family: 'Acme', sans-serif;
 font-family: 'Bree Serif', serif;
@@ -126,5 +126,21 @@ h2 {
 }
 
 .customer_label {
+  font-family: "Bree Serif", serif;
+}
+
+.rupee {
+  font-size: 1.5rem;
+  font-family: "Acme", sans-serif;
+  font-weight: 900;
+}
+
+.rupee-icon::before {
+  font-weight: 900;
+}
+
+.review {
+  font-size: 1.1rem;
+  /* font-family: "Lobster", cursive; */
   font-family: "Bree Serif", serif;
 }
