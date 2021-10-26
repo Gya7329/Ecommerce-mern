@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=Lobster&family=Nunito:ital,wght@0,400;0,600;1,400;1,600&family=Satisfy&display=swap");
+
+/* font-family: 'Acme', sans-serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Satisfy', cursive; */
+
 main {
   min-height: 80vh;
 }
@@ -7,13 +15,19 @@ h3 {
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 3rem;
   padding: 1rem 0;
+  font-family: "Bree Serif", serif;
+  text-align: center;
+  font-weight: 500;
 }
 
 h2 {
-  font-size: 1.4rem;
+  text-align: cente;
+  font-size: 1.5rem;
   padding: 0.5rem 0;
+  font-family: "Bree Serif", serif;
+  font-weight: 500;
 }
 
 .rating span {
@@ -24,7 +38,7 @@ h2 {
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active {
-  display:inline-flex;
+  display: inline-flex;
 }
 .carousel-caption {
   position: absolute;
@@ -32,10 +46,10 @@ h2 {
 }
 
 .carousel-caption h2 {
-  color: rgb(236, 209, 209);
+  color: rgb(41, 41, 80);
 }
 
-.carousel img {
+/* .carousel img {
   height: 300px;
   width: 600px;
   padding: 30px;
@@ -44,6 +58,15 @@ h2 {
   border-radius: 10%;
   margin-left: auto;
   margin-right: auto;
+} */
+
+.carousel img {
+  height: 30rem;
+  width: 60rem;
+  /* padding: 10px; */
+  /* margin: 40px; */
+  border-radius: 10px;
+  margin: 1rem 0rem;
 }
 .carousel a {
   margin: 0 auto;
@@ -54,10 +77,54 @@ h2 {
   }
 }
 
-.ml-auto{
-margin-left: 200px;
-font-size: 17px;
+.ml-auto {
+  margin-left: 200px;
+  font-size: 17px;
+}
 
+/* .justify-content-md-center {
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+} */
 
+.div_img {
+  width: 50%;
+}
 
+.login_image {
+  margin-top: 3rem;
+  height: 25rem;
+  width: 30rem;
+}
+
+.search {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #3e3f3a;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-right: 5px;
+}
+
+.new_form {
+  margin-left: 5rem;
+}
+
+.new_col {
+  margin-left: 5rem;
+  font-size: 16px;
+}
+
+.customer_label {
+  font-family: "Bree Serif", serif;
 }
