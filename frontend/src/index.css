@@ -144,3 +144,25 @@ h2 {
   /* font-family: "Lobster", cursive; */
   font-family: "Bree Serif", serif;
 }
+
+body {
+  background: url("/frontend/src/New-Image/pexels-pixabay-271816.jpg");
+}
+
+.back_button {
+  position: relative;
+  top: -10px;
+  left: -30px;
+  padding: 1px 5px;
+}
+
+.back_button:hover {
+  color: white;
+  background-color: #1b8bd1;
+}
+
+.footer_bar {
+  /* height: 2px; */
+  /* width: 2px; */
+  margin: 0;
+}
