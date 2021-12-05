@@ -91,7 +91,16 @@ const ProductScreen = ({ history, match }) => {
               </Col> */}
               <ListGroup variant="flush">
                 <ListGroup.Item>
-                  <h3>{product.name}</h3>
+                  <h3
+                    style={{
+                      textAlign: "center",
+                      fontFamily: "Bree Serif, serif",
+                      padding: "0px",
+                      fontSize: "40px",
+                    }}
+                  >
+                    {product.name}
+                  </h3>
                 </ListGroup.Item>
                 <ListGroup.Item>
                   <Rating
@@ -111,7 +120,7 @@ const ProductScreen = ({ history, match }) => {
               <Card>
                 <ListGroup variant="flush">
                   <ListGroup.Item>
-                    <Row>
+                    <Row style={{ margin: "0px 0px" }}>
                       <Col>Price:</Col>
                       <Col>
                         <strong>
@@ -122,7 +131,7 @@ const ProductScreen = ({ history, match }) => {
                   </ListGroup.Item>
 
                   <ListGroup.Item>
-                    <Row>
+                    <Row style={{ margin: "0px 0px" }}>
                       <Col>Status:</Col>
                       <Col>
                         {product.countInStock > 0 ? "In Stock" : "Out Of Stock"}
@@ -132,7 +141,7 @@ const ProductScreen = ({ history, match }) => {
 
                   {product.countInStock > 0 && (
                     <ListGroup.Item>
-                      <Row>
+                      <Row style={{ margin: "0px 0px" }}>
                         <Col>Qty</Col>
                         <Col>
                           <Form.Control
@@ -155,6 +164,7 @@ const ProductScreen = ({ history, match }) => {
 
                   <ListGroup.Item>
                     <Button
+                      style={{ marginLeft: "50px" }}
                       onClick={addToCartHandler}
                       className="btn-block"
                       type="button"

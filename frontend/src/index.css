@@ -166,3 +166,11 @@ body {
   /* width: 2px; */
   margin: 0;
 }
+
+.cart_image {
+  height: 80px;
+  width: 80px;
+  padding: 0px 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
