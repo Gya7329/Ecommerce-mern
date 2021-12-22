@@ -8,6 +8,7 @@ font-family: 'Satisfy', cursive; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 main {
@@ -177,4 +178,10 @@ body {
   padding: 0px 0px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
+}
+#cardItem {
+  transition: all 0.2s ease;
+}
+#cardItem:hover {
+  transform: scale(1.1);
 }
