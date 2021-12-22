@@ -4572,9 +4572,7 @@ fieldset:disabled .btn {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1rem 1rem;
-  /* background: linear-gradient(to bottom, #ffafbd, #ffc3a0); */
-  background: linear-gradient(to bottom, #a1ffce, #faffd1);
-  /* background: linear-gradient(to bottom, #e0eafc, #cfdef3); */
+  background-color:#ecf0f1;
 }
 .card-body:hover {
   color: #000;
@@ -7358,22 +7356,7 @@ fieldset:disabled .btn {
   padding-bottom: 0.5rem !important;
 }
 .py-3 {
-  /* background: url("./New-Image/pexels-pixabay-235985.jpg"); */
-  background-image: linear-gradient(
-    to left bottom,
-    #fee9f5,
-    #f5ebff,
-    #e6f0ff,
-    #d5f5ff,
-    #cbf9ff,
-    #caf9ff,
-    #c8f8fe,
-    #c7f8fe,
-    #ccf4ff,
-    #d4f0ff,
-    #dcecff,
-    #e4e8fc
-  );
+  background-color:#ecf0f1;
   object-fit: cover;
   background-attachment: fixed;
   padding-top: 1rem !important;
